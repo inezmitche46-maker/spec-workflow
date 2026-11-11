@@ -1,7 +1,7 @@
 {
   "name": "spec",
-  "version": "0.9.0-david.1",
-  "description": "A Codex CLI port of the sdd spec-driven development plugin, maintained by David Tate and based on kamioj/spec-workflow.",
+  "version": "0.9.0-david.2",
+  "description": "A Codex CLI port of the sdd spec-driven development plugin, maintained by David Tate.",
   "interface": {
     "displayName": "SDD by David Tate"
   },

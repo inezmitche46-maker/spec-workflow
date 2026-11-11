@@ -4,11 +4,11 @@
 
 **Spec-driven development plugin for Claude Code**
 
-Maintained by **[David Tate](https://github.com/inezmitche46-maker)**. This derivative is based on [kamioj/spec-workflow](https://github.com/kamioj/spec-workflow); see [UPSTREAM.md](UPSTREAM.md) for source, version, and modification credits.
+Maintained by **[David Tate](https://github.com/inezmitche46-maker)**. See [maintenance and license notes](MAINTENANCE.md) for version information and project credits.
 
 Large changes, kept controllable and reversible. The pipeline — research → clarify → propose → **HARD GATE** → implement → verify → archive — is re-entrant at every step, enforced by hooks, and runs its agents in parallel.
 
-[![Version](https://img.shields.io/badge/version-0.9.0--david.1-blue.svg)](https://github.com/inezmitche46-maker/spec-workflow)
+[![Version](https://img.shields.io/badge/version-0.9.0--david.2-blue.svg)](https://github.com/inezmitche46-maker/spec-workflow)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/inezmitche46-maker/spec-workflow)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-v2.1+-purple.svg)](https://docs.claude.com/en/docs/claude-code)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -413,6 +413,6 @@ These reference notes describe material inherited from the upstream project; ori
 
 <div align="center">
 
-Built with [Claude Code](https://claude.com/claude-code) · Maintained by [David Tate](https://github.com/inezmitche46-maker) · Based on [kamioj/spec-workflow](https://github.com/kamioj/spec-workflow)
+Built with [Claude Code](https://claude.com/claude-code) · Maintained by [David Tate](https://github.com/inezmitche46-maker)
 
 </div>

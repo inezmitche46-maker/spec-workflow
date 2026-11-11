@@ -4,11 +4,11 @@
 
 **Spec-driven development plugin for Claude Code**
 
-由 **[David Tate](https://github.com/inezmitche46-maker)** 维护。本派生版本基于 [kamioj/spec-workflow](https://github.com/kamioj/spec-workflow)，来源、版本及本次修改说明见 [UPSTREAM.md](UPSTREAM.md)。
+由 **[David Tate](https://github.com/inezmitche46-maker)** 维护。版本信息、维护记录与许可说明见 [项目维护说明](MAINTENANCE.md)。
 
 让大改动可控可回滚——调研、拷问、提案、HARD GATE、实施、验证、归档，每步可重入、可硬约束、可派单。
 
-[![Version](https://img.shields.io/badge/version-0.9.0--david.1-blue.svg)](https://github.com/inezmitche46-maker/spec-workflow)
+[![Version](https://img.shields.io/badge/version-0.9.0--david.2-blue.svg)](https://github.com/inezmitche46-maker/spec-workflow)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/inezmitche46-maker/spec-workflow)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-v2.1+-purple.svg)](https://docs.claude.com/en/docs/claude-code)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -412,6 +412,6 @@ claude --plugin-dir .
 
 <div align="center">
 
-Built with [Claude Code](https://claude.com/claude-code) · Maintained by [David Tate](https://github.com/inezmitche46-maker) · Based on [kamioj/spec-workflow](https://github.com/kamioj/spec-workflow)
+Built with [Claude Code](https://claude.com/claude-code) · Maintained by [David Tate](https://github.com/inezmitche46-maker)
 
 </div>

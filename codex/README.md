@@ -1,6 +1,6 @@
 # sdd for Codex CLI
 
-Maintained by **[David Tate](https://github.com/inezmitche46-maker)** as part of this derivative. Upstream source and modification credits are recorded in [UPSTREAM.md](../UPSTREAM.md).
+Maintained by **[David Tate](https://github.com/inezmitche46-maker)**. Version information and licensing notes are recorded in [MAINTENANCE.md](../MAINTENANCE.md).
 
 A port of the [sdd spec-driven development plugin](../README.md) to OpenAI Codex CLI.
 Same workflow, same hard-gate guarantees, different host. The Claude Code plugin at the
