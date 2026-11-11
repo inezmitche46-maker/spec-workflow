@@ -4,10 +4,12 @@
 
 **Spec-driven development plugin for Claude Code**
 
+由 **[David Tate](https://github.com/inezmitche46-maker)** 维护。本派生版本基于 [kamioj/spec-workflow](https://github.com/kamioj/spec-workflow)，来源、版本及本次修改说明见 [UPSTREAM.md](UPSTREAM.md)。
+
 让大改动可控可回滚——调研、拷问、提案、HARD GATE、实施、验证、归档，每步可重入、可硬约束、可派单。
 
-[![Version](https://img.shields.io/badge/version-0.9.0-blue.svg)](https://github.com/kamioj/spec-workflow)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/kamioj/spec-workflow)
+[![Version](https://img.shields.io/badge/version-0.9.0--david.1-blue.svg)](https://github.com/inezmitche46-maker/spec-workflow)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/inezmitche46-maker/spec-workflow)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-v2.1+-purple.svg)](https://docs.claude.com/en/docs/claude-code)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
@@ -45,18 +47,15 @@ AI 辅助的 spec-driven development 已有两种范式：
 ### Install
 
 ```pwsh
-# 配 GitHub token（private repo 必需）
-$env:GITHUB_TOKEN = "ghp_xxxxxxxxxxxx"
-
 # 注册 marketplace + 装 plugin
-claude plugin marketplace add kamioj/spec-workflow
+claude plugin marketplace add inezmitche46-maker/spec-workflow
 claude plugin install spec@spec-workflow
 ```
 
 **用 OpenAI Codex CLI？** 同一工作流以 Codex 插件形式从本仓库分发——同样的硬门、同样的工件，命令形式为 `$spec-*` 技能：
 
 ```sh
-codex plugin marketplace add kamioj/spec-workflow
+codex plugin marketplace add inezmitche46-maker/spec-workflow
 codex plugin add spec@spec-workflow
 ```
 
@@ -403,6 +402,8 @@ claude --plugin-dir .
 
 **`references/` 内容声明**：
 
+以下说明沿用上游参考资料的来源声明；原始内容及第三方资料的署名归各自作者所有。
+
 - 全部为 sdd **自有内容**。其中技术栈规范（`js-style` / `vue-style` / `google-ts-style` / `alibaba-java` 等）是对应官方规范**关键要点的自有提炼**，已在各文件 frontmatter 的 `source` 字段注明参考来源——需要完整规范请访问官方链接，本项目不复制原文。
 - `bulletproof-react.md` 为基于 [bulletproof-react](https://github.com/alan2207/bulletproof-react)（MIT）的要点摘要。
 - `agent-principles.md` / `frontend-aesthetics.md` 的原则为自有表述，综合业界通用工程 / 设计共识整理。
@@ -411,6 +412,6 @@ claude --plugin-dir .
 
 <div align="center">
 
-Built with [Claude Code](https://claude.com/claude-code) · Maintained by [@kamioj](https://github.com/kamioj)
+Built with [Claude Code](https://claude.com/claude-code) · Maintained by [David Tate](https://github.com/inezmitche46-maker) · Based on [kamioj/spec-workflow](https://github.com/kamioj/spec-workflow)
 
 </div>

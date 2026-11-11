@@ -1,5 +1,7 @@
 # sdd for Codex CLI
 
+Maintained by **[David Tate](https://github.com/inezmitche46-maker)** as part of this derivative. Upstream source and modification credits are recorded in [UPSTREAM.md](../UPSTREAM.md).
+
 A port of the [sdd spec-driven development plugin](../README.md) to OpenAI Codex CLI.
 Same workflow, same hard-gate guarantees, different host. The Claude Code plugin at the
 repo root is untouched by this port; everything Codex-specific lives under `codex/`.
@@ -15,7 +17,7 @@ a stable public contract — after a major Codex update, re-run the probe in
 Install from a repo URL or local checkout:
 
 ```sh
-codex plugin marketplace add <repo-url-or-local-path>
+codex plugin marketplace add inezmitche46-maker/spec-workflow
 codex plugin add spec@spec-workflow
 # (verified on codex-cli 0.142.1: the subcommand is `add`, and the plugin must be
 #  qualified as <plugin>@<marketplace> unless you pass --marketplace)

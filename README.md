@@ -4,10 +4,12 @@
 
 **Spec-driven development plugin for Claude Code**
 
+Maintained by **[David Tate](https://github.com/inezmitche46-maker)**. This derivative is based on [kamioj/spec-workflow](https://github.com/kamioj/spec-workflow); see [UPSTREAM.md](UPSTREAM.md) for source, version, and modification credits.
+
 Large changes, kept controllable and reversible. The pipeline — research → clarify → propose → **HARD GATE** → implement → verify → archive — is re-entrant at every step, enforced by hooks, and runs its agents in parallel.
 
-[![Version](https://img.shields.io/badge/version-0.9.0-blue.svg)](https://github.com/kamioj/spec-workflow)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/kamioj/spec-workflow)
+[![Version](https://img.shields.io/badge/version-0.9.0--david.1-blue.svg)](https://github.com/inezmitche46-maker/spec-workflow)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/inezmitche46-maker/spec-workflow)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-v2.1+-purple.svg)](https://docs.claude.com/en/docs/claude-code)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
@@ -45,11 +47,8 @@ Built for one person making large changes, with guardrails — stricter than Ope
 ### Install
 
 ```pwsh
-# Configure a GitHub token (required for a private repo)
-$env:GITHUB_TOKEN = "ghp_xxxxxxxxxxxx"
-
 # Register the marketplace and install the plugin
-claude plugin marketplace add kamioj/spec-workflow
+claude plugin marketplace add inezmitche46-maker/spec-workflow
 claude plugin install spec@spec-workflow
 ```
 
@@ -57,7 +56,7 @@ claude plugin install spec@spec-workflow
 repo — same gates, same artifacts, `$spec-*` skills instead of `/spec:*` commands:
 
 ```sh
-codex plugin marketplace add kamioj/spec-workflow
+codex plugin marketplace add inezmitche46-maker/spec-workflow
 codex plugin add spec@spec-workflow
 ```
 
@@ -404,6 +403,8 @@ Released under the [MIT License](LICENSE).
 
 **About `references/`:**
 
+These reference notes describe material inherited from the upstream project; original authorship and third-party credits remain with their respective authors.
+
 - Everything here is sdd's **own content**. The tech-stack guides (`js-style`, `vue-style`, `google-ts-style`, `alibaba-java`, …) distill the key points of the corresponding official specs, with the source noted in each file's frontmatter `source` field — for the full spec, follow the official link; this project does not reproduce the original text.
 - `bulletproof-react.md` is a key-points summary of [bulletproof-react](https://github.com/alan2207/bulletproof-react) (MIT).
 - The principles in `agent-principles.md` and `frontend-aesthetics.md` are original write-ups, synthesized from common industry engineering and design consensus.
@@ -412,6 +413,6 @@ Released under the [MIT License](LICENSE).
 
 <div align="center">
 
-Built with [Claude Code](https://claude.com/claude-code) · Maintained by [@kamioj](https://github.com/kamioj)
+Built with [Claude Code](https://claude.com/claude-code) · Maintained by [David Tate](https://github.com/inezmitche46-maker) · Based on [kamioj/spec-workflow](https://github.com/kamioj/spec-workflow)
 
 </div>

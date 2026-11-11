@@ -1,9 +1,9 @@
 {
   "name": "spec",
-  "version": "0.9.0",
-  "description": "A Codex CLI port of the sdd spec-driven development plugin with the same workflow and hard-gate guarantees.",
+  "version": "0.9.0-david.1",
+  "description": "A Codex CLI port of the sdd spec-driven development plugin, maintained by David Tate and based on kamioj/spec-workflow.",
   "interface": {
-    "displayName": "SDD (spec-driven development)"
+    "displayName": "SDD by David Tate"
   },
   "skills": "./skills/",
   "hooks": "./hooks/hooks.json"
